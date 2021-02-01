@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "hortaboxt.xcworkspace"
+                XCODE_WORKSPACE: "hortaboxt"
                 XCODE_SCHEME: "hortaboxthme"
             xcode: latest
             cocoapods: default
